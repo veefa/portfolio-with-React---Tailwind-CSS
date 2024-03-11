@@ -23,14 +23,14 @@ const Hero = () => {
 
           <div className="flex py-5 ">
             <a
-              href="https://twitter.com/CoderAmrin"
+              href="https://github.com/veefa"
               className="pr-4 inline-block text-accent hover:text-gray-300"
             >
               {" "}
               <AiOutlineTwitter size={40} />{" "}
             </a>
             <a
-              href="https://twitter.com/CoderAmrin"
+              href="https://github.com/veefa"
               className="pr-4 inline-block text-accent hover:text-gray-300"
             >
               {" "}
