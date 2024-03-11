@@ -13,7 +13,7 @@ building a portfolio website with React & Tailwind CSS.
 
 
 
-## Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
