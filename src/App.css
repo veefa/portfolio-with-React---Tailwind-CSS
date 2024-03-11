@@ -27,6 +27,8 @@ h1,h2,p {
     color: #d1d5db
 }
 
+/*nav*/
+
 nav li a {
   @apply px-4 py-5 text-lg;
 }
@@ -44,7 +46,6 @@ h1 {
     line-height: 1.5 !important;
 }
 /* Hero*/
-Project.js img {
+.projects img {
     width: 100%;
-    height: 100%;
 }
