@@ -1,28 +1,24 @@
-
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Header = () => {
-    const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(false);
 
-    const handleToggle = () => setToggle(!toggle);
+  const handleToggle = () => setToggle(!toggle);
 
   return (
-    <header className="flex justify-between px-5 py-2 bg-primary text-slate-700 fixed w-full z-10">
+    <header className="flex justify-between px-5 py-2 bg-primary bg-gray-900 text-gray-300 fixed w-full z-10">
       <a href="/" className="logo text-2xl font-bold text-accent">
         Wafae
       </a>
-     {/* Desktop Nav */}
-     <nav className="hidden md:block">
+      {/* Desktop Nav */}
+      <nav className="hidden md:block">
         <ul className="flex">
           <li>
             <a href="/#about">About</a>
           </li>
           <li>
             <a href="/#projects">Projects</a>
-          </li>
-          <li>
-            <a href="/#blog">Blog</a>
           </li>
           <li>
             <a href="/#contact">Contact</a>
@@ -47,9 +43,6 @@ const Header = () => {
             <a href="/#projects">Projects</a>
           </li>
           <li>
-            <a href="/#blog">Blog</a>
-          </li>
-          <li>
             <a href="/#contact">Contact</a>
           </li>
           <li>
@@ -62,7 +55,6 @@ const Header = () => {
       <button onClick={handleToggle} className="block md:hidden">
         {!toggle ? <AiOutlineMenu size={30} /> : <AiOutlineClose size={30} />}
       </button>
-      
     </header>
   );
 };
