@@ -1,3 +1,22 @@
+building a portfolio website with React & Tailwind CSS.
+
+# Todos
+This app helps you get things done better. It's made for people who use the GTD and PARA methods. I embarked on this project out of frustration with existing ToDo apps, both free and paid, as none could fully satisfy my requirements (Flexibility, Native App, Nice Design, Not Cluttered, Sharing, Data Ownership...).
+
+**Note:** The current name of this application is Todos, but it's temporary. I'm still brainstorming for a fitting name. Also, this project is still a work in progress and not ready for use.
+
+## Screenshots
+| Mac | iPhone |
+|---|--|
+| <img alt="Screenshot 2024-03-10 at 11 31 24 PM" src="https://github.com/veefa/">| <img alt="Screenshot 2024-03-10 at 11 31 24 PM" src="https://github.com/rachidify/todos/assets/5089737/2ad27d8d-9e67-4ecd-9f41-1309fc9b9376">|
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
