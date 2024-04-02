@@ -9,19 +9,19 @@ const Projects = () => {
       img: choredoor,
       title: "chore-door",
       live: "https://amaizingspace.netlify.app/",
-      code: "https://github.com/Coderamrin/devlog",
+      code: "https://github.com/veefa",
     },
     {
       img: space,
       title: "space",
       live: "https://doorechore.netlify.app/",
-      code: "https://github.com/Coderamrin/html-templates",
+      code: "https://github.com/veefa/",
     },
     {
       img: rockpaperscissores,
       title: "rockpaperscissores",
       live: "https://doorechore.netlify.app/",
-      code: "https://github.com/Coderamrin/html-templates",
+      code: "https://github.com/veefa/Rock-Scissores-Paper-GAME",
     },
   ];
 
@@ -35,7 +35,7 @@ const Projects = () => {
 
           <p className="pb-5">
             These are some of my projects. I have built these with
-            React,Javascript and vanilla CSS. Check them out.
+            React,Javascript, HTML and CSS. Check them out.
           </p>
         </div>
 
@@ -46,8 +46,8 @@ const Projects = () => {
         {projects.map((project, i) => {
           return (
             <div className="relative" key={i}>
-              <img src={project.img} alt={project.title} />
-              <div className="flex absolute left-0 right-3 top-[13px] bottom-0 mx-auto w-[70%] h-[70%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
+            <img src={project.img} alt={project.title} />
+            <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
               <div className="mx-auto">
                   <a
                     href={project.live}

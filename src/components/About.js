@@ -12,18 +12,17 @@ const About = () => {
             About Me
           </h2>
 
-          <p className="pb-5 text-sm">
+          <p className="pb-5 text-base">
             Hi, My Name Is Wafaa Hamdaoui everyone calls me Veefa. I am a
             Frontend Developer. I build beautifull websites with React and
             Tailwind CSS.
           </p>
-          <p className="pb-5 text-sm">
-            I am jonior in Frontend skills like React.js, Redux, Redux Tool
-            Kit, Axios, Tailwind CSS, SaSS, Css3 and many more.
+          <p className="pb-5 text-base">
+            I am jonior in Frontend skills like JavaScript, React.js, next.js,Tailwind CSS, SaSS and many more.
           </p>
 
-          <p className=" text-sm">
-          In my spare time, I hone my frontend skills through personal projects, occasionally joining online workshops, conferences, and forums to stay updated on industry trends.
+          <p className=" text-base">
+          In my spare time, I hone my frontend skills through personal projects, occasionally joining online workshops, and forums to stay updated on industry trends.
           </p>
         </div>
       </div>
